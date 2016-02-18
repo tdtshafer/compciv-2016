@@ -10,7 +10,6 @@ namesdict = {}
 
 totals = numpy.array([0,0,0,0,0,0])
   
-
 with open(FPATH) as f:
   for line in f:
     name, sex, babies = line.strip().split(',')
@@ -28,8 +27,6 @@ top1 = 10
 top2 = 100
 top3 = 1000
 top4 = 10000
-
-
 
 for x in range(len(ordered)):
   current_babies = ordered[x][1]
@@ -57,6 +54,6 @@ print('Names ', 1, ' to ', top1, ': ', round(percent[0]*100, 1), sep='')
 print('Names ', top1+1, ' to ', top2, ': ', round(percent[1]*100, 1), sep='')
 print('Names ', top2+1, ' to ', top3, ': ', round(percent[2]*100, 1), sep='')
 print('Names ', top3+1, ' to ', top4, ': ', round(percent[3]*100, 1), sep='')
-print('Names ', 10001, ' to ', len(ordered), ': ', round(percent[4]*100, 1),sep='')
+print('Names ', top4+1, ' to ', len(ordered), ': ', round(percent[4]*100, 1),sep='')
  
 
