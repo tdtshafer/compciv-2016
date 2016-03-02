@@ -1,0 +1,18 @@
+{"images":[
+	{"image":"e.jpg",
+	 "scores":[
+		 {"classifier_id":"Bottle_Storage","name":"Bottle_Storage","score":0.585166},
+		 {"classifier_id":"Disturbance","name":"Disturbance","score":0.576785},
+		 {"classifier_id":"Land_Vehicle","name":"Land_Vehicle","score":0.563859},
+		 {"classifier_id":"Crowd","name":"Crowd","score":0.559021},
+		 {"classifier_id":"Scene","name":"Scene","score":0.558835},
+		 {"classifier_id":"White","name":"White","score":0.552817},
+		 {"classifier_id":"Winter_Scene","name":"Winter_Scene","score":0.546149},
+		 {"classifier_id":"Outdoors","name":"Outdoors","score":0.540746},
+		 {"classifier_id":"Dog","name":"Dog","score":0.538671},
+		 {"classifier_id":"Banners","name":"Banners","score":0.536965},
+		 {"classifier_id":"Demonstration","name":"Demonstration","score":0.536696},
+		 {"classifier_id":"Bicycle","name":"Bicycle","score":0.525612},
+		 {"classifier_id":"Lion","name":"Lion","score":0.523124},
+		 {"classifier_id":"Hunting","name":"Hunting","score":0.522088}]}]
+}

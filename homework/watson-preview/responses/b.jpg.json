@@ -1,0 +1,17 @@
+{"images":[
+	{"image":"b.jpg",
+	 "scores":[
+		 {"classifier_id":"Brown","name":"Brown","score":0.673801},
+		 {"classifier_id":"Animal_Tending","name":"Animal_Tending","score":0.629577},
+		 {"classifier_id":"Exhibition_Hall","name":"Exhibition_Hall","score":0.614864},
+		 {"classifier_id":"Appliance","name":"Appliance","score":0.60035},
+		 {"classifier_id":"Coffee_Maker","name":"Coffee_Maker","score":0.586965},
+		 {"classifier_id":"Cat","name":"Cat","score":0.585642},
+		 {"classifier_id":"Art_Gallery","name":"Art_Gallery","score":0.562757},
+		 {"classifier_id":"Ice_Hockey","name":"Ice_Hockey","score":0.560629},
+		 {"classifier_id":"Food_Processor","name":"Food_Processor","score":0.555761},
+		 {"classifier_id":"Indoors","name":"Indoors","score":0.550322},
+		 {"classifier_id":"Combat_Sport","name":"Combat_Sport","score":0.545184},
+		 {"classifier_id":"Kitchen","name":"Kitchen","score":0.52751},
+		 {"classifier_id":"Riot","name":"Riot","score":0.521012}]}]
+}

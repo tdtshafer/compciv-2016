@@ -1,0 +1,18 @@
+{"images":[
+	{"image":"a.jpg",
+	 "scores":[
+		 {"classifier_id":"Gray","name":"Gray","score":0.699013},
+		 {"classifier_id":"Dog_Sled_Racing","name":"Dog_Sled_Racing","score":0.649036},
+		 {"classifier_id":"Snow_Scene","name":"Snow_Scene","score":0.631497},
+		 {"classifier_id":"Birthday_Party","name":"Birthday_Party","score":0.591182},
+		 {"classifier_id":"Mammal","name":"Mammal","score":0.574984},
+		 {"classifier_id":"Ostrich","name":"Ostrich","score":0.559807},
+		 {"classifier_id":"Vertebrate","name":"Vertebrate","score":0.555263},
+		 {"classifier_id":"Riot","name":"Riot","score":0.54523},
+		 {"classifier_id":"Group_of_People","name":"Group_of_People","score":0.543479},
+		 {"classifier_id":"Appliance","name":"Appliance","score":0.541854},
+		 {"classifier_id":"Mixed_Color","name":"Mixed_Color","score":0.536146},
+		 {"classifier_id":"Engine_Room","name":"Engine_Room","score":0.524154},
+		 {"classifier_id":"Human","name":"Human","score":0.505821},
+		 {"classifier_id":"Big_Group","name":"Big_Group","score":0.50062}]}]
+}

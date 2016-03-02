@@ -1,0 +1,15 @@
+{"images":[
+	{"image":"c.jpg",
+	 "scores":[
+		 {"classifier_id":"Brown","name":"Brown","score":0.627226},
+		 {"classifier_id":"Placental_Mammal","name":"Placental_Mammal","score":0.612371},
+		 {"classifier_id":"Cat","name":"Cat","score":0.602959},
+		 {"classifier_id":"Vertebrate","name":"Vertebrate","score":0.599513},
+		 {"classifier_id":"Gray","name":"Gray","score":0.591627},
+		 {"classifier_id":"Animal","name":"Animal","score":0.578977},
+		 {"classifier_id":"Indoors","name":"Indoors","score":0.559964},
+		 {"classifier_id":"Natural_Activity","name":"Natural_Activity","score":0.544956},
+		 {"classifier_id":"Girl","name":"Girl","score":0.534324},
+		 {"classifier_id":"Rail_Travel_Scene","name":"Rail_Travel_Scene","score":0.527438},
+		 {"classifier_id":"Catacomb","name":"Catacomb","score":0.500203}]}]
+}
