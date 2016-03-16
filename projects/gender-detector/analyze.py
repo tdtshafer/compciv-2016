@@ -15,21 +15,36 @@ na_comp = 0
 m=0
 f=0
 na=0
+m2=0
+f2=0
+na2=0
+
+minimum = input('Input a minimum salary in dollars for the gender comparison:')
+
+if not minimum.isdigit():
+  print('\nTry again! Use a number this time.\n')
+
 
 for person in c_data:  
   if person['gender'] == 'M':
-      m+=1
+    m+=1
+    if round(float(person['compensation'])) > int(minimum):
+      m2+=1
       m_comp+= round(float(person['compensation']))
   elif person['gender'] == 'F':
-      f+=1
+    f+=1
+    if round(float(person['compensation'])) > int(minimum):
+      f2+=1
       f_comp+= round(float(person['compensation']))
   else:
-      na+=1
+    na+=1
+    if round(float(person['compensation'])) > int(minimum):
+      na2+=1
       na_comp+= round(float(person['compensation']))
       
-avg_m_salary = round(m_comp/m)
-avg_f_salary = round(f_comp/f)
-avg_na_salary = round(na_comp/na)
+avg_m_salary = round(m_comp/m2)
+avg_f_salary = round(f_comp/f2)
+avg_na_salary = round(na_comp/na2)
 
 
 print('\nSAN JOSE IN 2014: FACET ONE - SALARIES')

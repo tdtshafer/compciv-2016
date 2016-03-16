@@ -81,3 +81,10 @@ So far I've been using HumanName() from nameparser that I found on github, altho
 - Making sure all the functions work seamlessly will be a bit of a puzzle, but I think I can make it happen
 - Finding time to make sure everything works perfectly!
 
+#### Previous Research
+- I haven't seen much about the public workers in San Jose, but I did find this: http://www.mercurynews.com/census/ci_28718950/santa-clara-county-scrutinizing-wage-disparities
+-Of course, this dataset is people employed by the local government and cannot represent the whole of Silicon Valley or Santa Clara county.
+- I also found this 50 page brief on income disparity: http://www.jointventure.org/images/stories/pdf/income-inequality-2015-06.pdf
+- I didn't read very much of it, but it seems at least partly relevant to this discussion
+- The issue of racial and gender inequality is a hot topic, especially around here. Here's another article: http://www.motherjones.com/media/2014/05/google-diversity-labor-gender-race-gap-workers-silicon-valley
+- Interestingly, a lot of the non-categorized names in the system (which are, in general, foreign names) have a much higher average salary. My hypothesis is that there are fewer part time workers to skew their measurement.
