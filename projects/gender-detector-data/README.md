@@ -88,3 +88,17 @@ So far I've been using HumanName() from nameparser that I found on github, altho
 - I didn't read very much of it, but it seems at least partly relevant to this discussion
 - The issue of racial and gender inequality is a hot topic, especially around here. Here's another article: http://www.motherjones.com/media/2014/05/google-diversity-labor-gender-race-gap-workers-silicon-valley
 - Interestingly, a lot of the non-categorized names in the system (which are, in general, foreign names) have a much higher average salary. My hypothesis is that there are fewer part time workers to skew their measurement.
+
+
+
+#### How To Use it
+- run fetch_data.py - this will create a tempdata folder and download the San Jose worker data for 2014.
+- run fetch_gender_data.py - this will download the backbone of the gender detector
+- run wrangle_data.py - this will write wrangled_data.csv (and wrangled_data.json, because I wrote the code to mkae it and didn't want to just delete it)
+- run wrangle_gender_data.py - this will organize the gender data into a more usable format
+- run classify.py - this will create classified_data.csv and create the data that we will analyze
+- run analyze.py - You'll have to input a minimum salary for the income comparison. This program will print the results of the analysis
+- enjoy
+
+#Analysis
+I chose to analyze three things: the average income of each gender above a minimum chosen by the user, the length of the name by gender, and the number of unique names as compared to the number of employees by gender. What I found is that men make more than women at nearly ever minimum value, long names are in both male and female names (and especially in NA names), and that there are a lot more duplicated names in men than in women. 

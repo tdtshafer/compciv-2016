@@ -1,6 +1,4 @@
 from os.path import exists, join
-from tempdata.zoofoo import detect_gender
-from nameparser import HumanName
 import csv
 import requests
 DATA_DIR = 'tempdata'
@@ -12,4 +10,3 @@ if not exists(SJ_DATA_FILENAME):
     resp = requests.get(SJ_DATA_URL)
     with open(SJ_DATA_FILENAME, 'w') as f:
         f.write(resp.text)
-sj_data = list(csv.DictReader(open(SJ_DATA_FILENAME))) 
