@@ -46,11 +46,11 @@ avg_m_salary = round(m_comp/m2)
 avg_f_salary = round(f_comp/f2)
 avg_na_salary = round(na_comp/na2)
 
-
-print('\nSAN JOSE IN 2014: FACET ONE - SALARIES')
+print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+print('\n-----SAN JOSE IN 2014: FACET ONE - SALARIES-----')
 print('Average Male Salary: $', avg_m_salary, sep='')
 print('Average Female Salary: $', avg_f_salary, sep='')
-print('Average Uncategorized Salary: $', avg_na_salary, '\n', sep ='')
+print('Average Uncategorized Salary: $', avg_na_salary, sep ='')
 
 #F2 CALCULATIONS
 unique_names = {'M': set(), 'F': set(), 'NA': set()}
@@ -58,13 +58,13 @@ unique_names = {'M': set(), 'F': set(), 'NA': set()}
 for person in c_data:
   unique_names[person['gender']].add(person['name'])
 
-print('SAN JOSE IN 2014: FACET TWO - UNIQUE NAMES')
+print('\n-----SAN JOSE IN 2014: FACET TWO - UNIQUE NAMES-----')
 print('Total Males:', m)
 print('Unique Male Names:',len(unique_names['M']))
 print('Total Females:', f)
 print('Unique Female Names:',len(unique_names['F']))
 print('Total Uncategorized:', na)
-print('Unique Uncategorized Names:',len(unique_names['NA']), '\n')
+print('Unique Uncategorized Names:',len(unique_names['NA']))
 
 #F3 CALCULATIONS
 
@@ -116,14 +116,14 @@ for z in range(len(nas)):
     naties.append(list(nas)[z])
     
   
-print('SA JOSE IN 2014: FACET THREE - NAME LENGTH')
+print('\n-----SA JOSE IN 2014: FACET THREE - NAME LENGTH-----')
 print('Average Male Name Length:', round(total_length[0]/len(boys), 2), 'letters')
 print('Longest Male Name:', mleading_name)
 print('Average Female Name Length:', round(total_length[1]/len(girls), 2), 'letters')
 print('Longest Female Name:', fleading_name)
 print('Average Uncategorized Name Length:', round(total_length[2]/len(nas), 2), 'letters')
-print('Longest Uncategorized Name: ', naleading_name, ' (tied with ', naties[1], ')\n', sep='')
-
+print('Longest Uncategorized Name: ', naleading_name, ' (tied with ', naties[1], ')', sep='')
+print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
 
 
 
